@@ -42,9 +42,6 @@ type DisableKinesisStreamingDestinationInput struct {
 	// This member is required.
 	TableName *string
 
-	// The source for the Kinesis streaming information that is being enabled.
-	EnableKinesisStreamingConfiguration *types.EnableKinesisStreamingConfiguration
-
 	noSmithyDocumentSerde
 }
 
